@@ -1,0 +1,30 @@
+{
+  "name": "gmodtrsecurity",
+  "version": "1.0.0",
+  "description": "Account Linker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastPlayerTR/gmodtrsecurity.git"
+  },
+  "author": "LastPlayerTR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LastPlayerTR/gmodtrsecurity/issues"
+  },
+  "homepage": "https://github.com/LastPlayerTR/gmodtrsecurity#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "moment": "^2.29.1",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.4",
+    "passport-steam": "^1.0.15"
+  }
+}
