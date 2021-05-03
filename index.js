@@ -11,8 +11,8 @@ let express = require('express'),
     fs = require('fs'),
     axios = require('axios').default
 let config = {
-    port: process.env.port,
-    mainhost: process.env.mainhost || `http://localhost:${process.env.port}/`,
+    port: process.env.PORT||3000,
+    mainhost: process.env.mainhost || `http://localhost:${process.env.PORT||3000}/`,
     steamwebapikey: process.env.apikey || "BC447756ECF4F2F4F97DED744D8CD013",
     secret: process.env.secret || "demo",
     discordclientid: process.env.discordclientid || "544199344786505729",
