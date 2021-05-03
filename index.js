@@ -96,7 +96,6 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
-app.use(express.static('static'))
 app.use(passport.initialize());
 app.use(passport.session());
 /* 
