@@ -1,0 +1,33 @@
+{
+     "compilerOptions": {
+         "module": "commonjs",
+         "target": "es2019",
+         "types": [
+             "node",
+             "react"
+         ],
+         "jsx": "preserve",
+         "strict": true,
+         "moduleResolution": "node",
+         "declaration": false,
+         "resolveJsonModule": true,
+         "removeComments": false,
+         "esModuleInterop": true,
+         "alwaysStrict": true,
+         "pretty": true,
+         "sourceMap": true,
+         "outDir": "dist",
+         "allowJs": true,
+         "lib": [
+          "dom",
+          "dom.iterable",
+          "esnext"
+        ],
+         "incremental": true,
+         "noEmitHelpers": true,
+         "importHelpers": true,
+         "skipLibCheck": true,
+         "strictNullChecks": false
+     },
+     "include": ["src/**/**.**", "serve/next-env.d.ts"]
+ }
