@@ -116,7 +116,7 @@ app.get('/link',async function(req,res){
     let unregistered = member.roles.cache.get(DiscordConfig.unregisteredroleid)
     let manuelverifyrole = member.roles.cache.get(DiscordConfig.manuelverifyrole)
     if(manuelverifyrole != undefined){return res.json({status : 403 , message : "Hesabınız Yetkili Tarafından Manuel Olarak Doğrulanacak."})}
-    if(unregistered == undefined){return res.json({status : 403 , message : "Hesabınız zaten doğrulanmış."})}
+    if(!member.roles.cache.has(unregistered)){return res.json({status : 403 , message : "Hesabınız zaten doğrulanmış."})}
     let connection = req.session.discord.connections.find(jsn => {
         if(jsn.type == 'steam') { return jsn }
     })
