@@ -1,0 +1,70 @@
+.mainContainer {
+     text-align: center;
+}
+
+.hero {
+     display: flex;
+     height: 100vh;
+     width: 100%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.avatar {
+     border-radius: 50%;
+     height: 10rem;
+     width: 10rem;
+}
+
+.socialHolder {
+     width: 20rem;
+     text-align: center;
+}
+
+.socialHolder h2 {
+     margin-top: 1rem;
+     width: 20rem;
+}
+
+.mainContainer {
+     display: flex;
+     align-items: flex-start;
+}
+
+.plus {
+     font-weight: bold;
+     font-size: 12rem;
+     margin-right: 2rem;
+     margin-left: 2rem;
+     opacity: 0;
+     user-select: none;
+}
+
+.discordbtn {
+     color: #fff;
+     background: #7289da;
+     transition: 0.2s;
+}
+
+.discordbtn:hover {
+     color: #fff;
+     background: #475588;
+}
+
+.steambtn {
+     color: #fff;
+     background: #2651dd;
+     transition: 0.2s;
+     margin-top: 1rem;
+}
+
+.steambtn:hover {
+     color: #fff;
+     background: #221c77;
+}
+
+.btnList {
+     display: flex;
+     flex-direction: column;
+}

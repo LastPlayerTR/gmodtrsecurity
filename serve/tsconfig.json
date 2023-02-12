@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "types": [
+      "node",
+      "react"
+    ],
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "declaration": false,
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "include": ["src", "next.config.js"  ],
+  "exclude": [
+    "node_modules/**.**"
+  ]
+}
